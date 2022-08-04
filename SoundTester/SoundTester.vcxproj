@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{ACA267BB-EE9A-45A2-A4BB-EA98E8D6241F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SoundTester</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libvorbis-1.3.7\include;C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libogg\include;C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libvorbis-1.3.7\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libvorbis-1.3.7\include;C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libogg\include;C:\Users\niewi\Desktop\Files\Ghost_Master_related\source\SoundTester\SoundTester\SoundTester\libvorbis-1.3.7\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="libogg\src\bitwise.c" />
+    <ClCompile Include="libogg\src\framing.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\analysis.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\bitrate.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\block.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\codebook.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\envelope.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\floor0.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\floor1.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\info.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\lookup.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\lpc.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\lsp.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\mapping0.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\mdct.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\psy.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\registry.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\res0.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\sharedbook.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\smallft.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\synthesis.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\vorbisenc.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\vorbisfile.c" />
+    <ClCompile Include="libvorbis-1.3.7\lib\window.c" />
+    <ClCompile Include="SoundTester.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AudioFile.h" />
+    <ClInclude Include="imadethis.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\backends.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\bitrate.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\codebook.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\codec_internal.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\envelope.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\highlevel.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\lookup.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\lookup_data.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\lpc.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\lsp.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\masking.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\mdct.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\misc.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\os.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\psy.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\registry.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\scales.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\smallft.h" />
+    <ClInclude Include="libvorbis-1.3.7\lib\window.h" />
+    <ClInclude Include="OggFile.h" />
+    <ClInclude Include="SoundTester.h" />
+    <ClInclude Include="textdata.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

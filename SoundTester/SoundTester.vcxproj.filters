@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Ogg">
+      <UniqueIdentifier>{cc5336a7-d859-4b9e-bdba-4fa90b2e5eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Wav">
+      <UniqueIdentifier>{5acb7ad9-be2a-4a8f-a3cf-70ab2d0b4b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Ogg">
+      <UniqueIdentifier>{bfcc13fe-b2c1-4864-af7a-8cbf14dbc36a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SoundTester.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\smallft.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\analysis.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\bitrate.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libogg\src\bitwise.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\block.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\codebook.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\envelope.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\floor0.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\floor1.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libogg\src\framing.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\info.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\lookup.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\lpc.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\lsp.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\mapping0.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\mdct.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\psy.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\registry.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\res0.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\sharedbook.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\synthesis.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\vorbisenc.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\vorbisfile.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+    <ClCompile Include="libvorbis-1.3.7\lib\window.c">
+      <Filter>Pliki źródłowe\Ogg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imadethis.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundTester.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioFile.h">
+      <Filter>Pliki nagłówkowe\Wav</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\window.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\smallft.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\scales.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\registry.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\psy.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\os.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\misc.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\mdct.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\lsp.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\masking.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\lpc.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\lookup_data.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\lookup.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\highlevel.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\envelope.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\codec_internal.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\codebook.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\bitrate.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="libvorbis-1.3.7\lib\backends.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="OggFile.h">
+      <Filter>Pliki nagłówkowe\Ogg</Filter>
+    </ClInclude>
+    <ClInclude Include="textdata.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
